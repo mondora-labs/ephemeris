@@ -8,12 +8,6 @@ var Header = React.createClass({
     render: function () {
         return (
             <header className="ac-header">
-                <Link to="upload">
-                    Upload
-                </Link>
-                <Link to="unsorted">
-                    Unsorted
-                </Link>
             </header>
         );
     }

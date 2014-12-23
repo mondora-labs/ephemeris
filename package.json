@@ -4,7 +4,7 @@
   "description": "astro",
   "main": "index.js",
   "scripts": {
-    "dev": "node scripts/dev.server.js",
+    "web.dev": "node scripts/dev.server.js",
     "web.prod": "node scripts/web.prod.js",
     "test": "node scripts/test.js",
     "start": "node scripts/server.js"
@@ -51,6 +51,7 @@
     "react": "^0.12.1",
     "react-bootstrap": "^0.13.0",
     "react-router": "^0.11.4",
-    "serve-static": "^1.6.4"
+    "serve-static": "^1.6.4",
+    "suncalc": "^1.6.0"
   }
 }
