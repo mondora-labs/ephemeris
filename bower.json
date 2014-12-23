@@ -1,0 +1,21 @@
+{
+  "name": "documentiq-front",
+  "version": "1.0.0",
+  "authors": [
+    "mondora"
+  ],
+  "description": "frontend app for documentiq",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "font-awesome": "~4.2.0"
+  }
+}

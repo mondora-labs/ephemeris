@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>astro</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+        <!-- @if TARGET=='web.dev' -->
+            <script>window.APP_TARGET = "web.dev";</script>
+        <!-- @endif -->
+
+        <!-- @if TARGET=='web.prod' -->
+            <script>window.APP_TARGET = "web.prod";</script>
+        <!-- @endif -->
+
+        <!-- Vendor CSS -->
+        <link href="/assets/css/vendor.css" type="text/css" rel="stylesheet" />
+        <!-- App CSS -->
+        <link href="/assets/css/app.css" type="text/css" rel="stylesheet" />
+
+    </head>
+
+    <body>
+        <!-- Vendor JS -->
+        <script src="/assets/js/vendor.js"></script>
+        <!-- App JS -->
+        <script src="/assets/js/app.js" defer></script>
+    </body>
+
+</html>

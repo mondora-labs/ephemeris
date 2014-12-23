@@ -1,0 +1,19 @@
+{
+  "js": [
+    "bluebird",
+    "fluxxor",
+    "immutable",
+    "moment",
+    "ramda",
+    "react",
+    "react-bootstrap",
+    "react-router"
+  ],
+  "css": [
+    "bower_components/bootstrap/dist/css/bootstrap.css",
+    "bower_components/font-awesome/css/font-awesome.css"
+  ],
+  "fonts": [
+    "bower_components/font-awesome/fonts/*"
+  ]
+}

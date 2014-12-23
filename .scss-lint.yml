@@ -1,0 +1,16 @@
+linters:
+
+  BorderZero:
+    enabled: false
+
+  Indentation:
+    width: 4
+
+  HexLength:
+    style: long
+
+  PropertySortOrder:
+    order: concentric
+
+  StringQuotes:
+    style: double_quotes

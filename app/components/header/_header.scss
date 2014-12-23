@@ -1,0 +1,15 @@
+.ac-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $app-indigo;
+    width: 100%;
+    height: $header-height-px;
+
+    a {
+        margin-left: 40px;
+        line-height: $header-height-px;
+        color: $app-white;
+    }
+
+}
